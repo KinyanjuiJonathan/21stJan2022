@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+
+.menu{
+  padding: 8px;
+  margin-top: 7px;
+  border-bottom: 1px solid #f1f1f1;
+  display: flex
+  ;
+  flex-direction: row;
+}
+.main {
+  float: left;
+  width: 50%;
+  padding: 0 20px;
+  overflow: hidden;
+}
+.left {
+  background-color: rgb(43, 1, 43);
+  float: left;
+  width: 50%;
+  padding: 10px 15px;
+  margin-top: 7px;
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .left {
+    width: 100%;
+  }
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .main,.left,.menu {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body style="font-family:Verdana;background-color:rgb(43, 1, 43);padding:15px;">
+  
+
+
+  <div class="left">
+    <div style="background-color:rgb(43, 1, 43):15px; color:white">
+      <h1>Get <font style="color:rgb(243, 87, 243);text-align:center;">insight </font> that helps your business grow</h1>
+      <h3>Discover the benefit of data analytics and make a better decisions
+        regarding revenue, customer experience,and the overall efficiency.
+      </h3>
+    </div>
+    
+    <div style="overflow:auto;text-align:center; horizontal-align: ; color:white">
+      <div class="menu" >
+        
+        <div class="menu-item1">
+          <h2>10k+</h2>
+          <p>COMPANIES</p>
+    
+        </div>
+       
+        
+        <div class="menu-item2">
+          <h2>314</h2>
+          <p>TEMPLATES</p>
+        </div>
+        
+    
+        <div class="menu-item3">
+          <h2>12M+</h2>
+          <p>QUERIES</p>
+        </div>
+        
+         
+    
+        
+      </div>
+  </div>
+</div>
+<div class="main" style= "align-self:right">
+  <img src="images/image-header-desktop.jpg" alt="images/image-header-mobile.jpg">
+  
+</div>
+
+
+</body>
+</html>
